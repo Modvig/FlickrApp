@@ -8,20 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		72257E691DEEE0EE0083D3DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E681DEEE0EE0083D3DE /* AppDelegate.swift */; };
-		72257E6B1DEEE0EE0083D3DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E6A1DEEE0EE0083D3DE /* ViewController.swift */; };
 		72257E6E1DEEE0EE0083D3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72257E6C1DEEE0EE0083D3DE /* Main.storyboard */; };
 		72257E701DEEE0EE0083D3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72257E6F1DEEE0EE0083D3DE /* Assets.xcassets */; };
 		72257E731DEEE0EE0083D3DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72257E711DEEE0EE0083D3DE /* LaunchScreen.storyboard */; };
+		72257E7B1DEEE1720083D3DE /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E7A1DEEE1720083D3DE /* MenuTableViewController.swift */; };
+		72257E7D1DEEE5C10083D3DE /* FlickrSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E7C1DEEE5C10083D3DE /* FlickrSDK.swift */; };
+		72257E7F1DEEF1C80083D3DE /* PublicImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */; };
+		72257E811DEEFCB50083D3DE /* PublicImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */; };
+		72257E8B1DEF16410083D3DE /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72257E8A1DEF16080083D3DE /* PKHUD.framework */; };
+		72257E8C1DEF16410083D3DE /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72257E8A1DEF16080083D3DE /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72257E871DEF16080083D3DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F99631FC19514FAC001F73CA;
+			remoteInfo = "PKHUD Demo";
+		};
+		72257E891DEF16080083D3DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F996321E19514FD8001F73CA;
+			remoteInfo = PKHUD;
+		};
+		72257E8D1DEF16410083D3DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F996321D19514FD8001F73CA;
+			remoteInfo = PKHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72257E8F1DEF16410083D3DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72257E8C1DEF16410083D3DE /* PKHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		72257E651DEEE0EE0083D3DE /* FlickrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72257E681DEEE0EE0083D3DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72257E6A1DEEE0EE0083D3DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72257E6D1DEEE0EE0083D3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72257E6F1DEEE0EE0083D3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72257E721DEEE0EE0083D3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72257E741DEEE0EE0083D3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72257E7A1DEEE1720083D3DE /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		72257E7C1DEEE5C10083D3DE /* FlickrSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSDK.swift; sourceTree = "<group>"; };
+		72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewController.swift; sourceTree = "<group>"; };
+		72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewCell.swift; sourceTree = "<group>"; };
+		72257E821DEF16080083D3DE /* PKHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKHUD.xcodeproj; path = "../../../Desktop/PKHUD-master/PKHUD.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72257E8B1DEF16410083D3DE /* PKHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +86,7 @@
 		72257E5C1DEEE0EE0083D3DE = {
 			isa = PBXGroup;
 			children = (
+				72257E821DEF16080083D3DE /* PKHUD.xcodeproj */,
 				72257E671DEEE0EE0083D3DE /* FlickrApp */,
 				72257E661DEEE0EE0083D3DE /* Products */,
 			);
@@ -55,13 +104,25 @@
 			isa = PBXGroup;
 			children = (
 				72257E681DEEE0EE0083D3DE /* AppDelegate.swift */,
-				72257E6A1DEEE0EE0083D3DE /* ViewController.swift */,
 				72257E6C1DEEE0EE0083D3DE /* Main.storyboard */,
+				72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */,
 				72257E6F1DEEE0EE0083D3DE /* Assets.xcassets */,
 				72257E711DEEE0EE0083D3DE /* LaunchScreen.storyboard */,
 				72257E741DEEE0EE0083D3DE /* Info.plist */,
+				72257E7A1DEEE1720083D3DE /* MenuTableViewController.swift */,
+				72257E7C1DEEE5C10083D3DE /* FlickrSDK.swift */,
+				72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */,
 			);
 			path = FlickrApp;
+			sourceTree = "<group>";
+		};
+		72257E831DEF16080083D3DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72257E881DEF16080083D3DE /* PKHUD Demo.app */,
+				72257E8A1DEF16080083D3DE /* PKHUD.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +135,12 @@
 				72257E611DEEE0EE0083D3DE /* Sources */,
 				72257E621DEEE0EE0083D3DE /* Frameworks */,
 				72257E631DEEE0EE0083D3DE /* Resources */,
+				72257E8F1DEF16410083D3DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72257E8E1DEF16410083D3DE /* PBXTargetDependency */,
 			);
 			name = FlickrApp;
 			productName = FlickrApp;
@@ -111,12 +174,35 @@
 			mainGroup = 72257E5C1DEEE0EE0083D3DE;
 			productRefGroup = 72257E661DEEE0EE0083D3DE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 72257E831DEF16080083D3DE /* Products */;
+					ProjectRef = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				72257E641DEEE0EE0083D3DE /* FlickrApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		72257E881DEF16080083D3DE /* PKHUD Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "PKHUD Demo.app";
+			remoteRef = 72257E871DEF16080083D3DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		72257E8A1DEF16080083D3DE /* PKHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PKHUD.framework;
+			remoteRef = 72257E891DEF16080083D3DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		72257E631DEEE0EE0083D3DE /* Resources */ = {
@@ -136,12 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72257E6B1DEEE0EE0083D3DE /* ViewController.swift in Sources */,
+				72257E7F1DEEF1C80083D3DE /* PublicImageTableViewController.swift in Sources */,
+				72257E7D1DEEE5C10083D3DE /* FlickrSDK.swift in Sources */,
+				72257E7B1DEEE1720083D3DE /* MenuTableViewController.swift in Sources */,
+				72257E811DEEFCB50083D3DE /* PublicImageTableViewCell.swift in Sources */,
 				72257E691DEEE0EE0083D3DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72257E8E1DEF16410083D3DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			targetProxy = 72257E8D1DEF16410083D3DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		72257E6C1DEEE0EE0083D3DE /* Main.storyboard */ = {
@@ -257,6 +354,7 @@
 		72257E781DEEE0EE0083D3DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlickrApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -269,6 +367,7 @@
 		72257E791DEEE0EE0083D3DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlickrApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

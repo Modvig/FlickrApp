@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let f = FlickrSDK.sharedInstance
+        f.appID = "bb61d4884d9b20bc45d656bb173e10de"
+        f.appSecret = "6cd35b596a4aafe4"
         return true
     }
 
