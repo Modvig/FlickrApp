@@ -19,6 +19,7 @@ class PublicImageTableViewController: UITableViewController {
         PKHUD.sharedHUD.show()
         
         
+        
         /*
         let config = URLSessionConfiguration()
         config.requestCachePolicy = .returnCacheDataElseLoad
@@ -61,14 +62,26 @@ class PublicImageTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PublicImageTableViewCell
         let imageURL = URL(string: (self.imageSet[indexPath.row]["media"] as! [String : String])["m"]!)
         let imageTitle = self.imageSet[indexPath.row]["title"] as! String
+        var imageCounter = 0
         
         // Configure the cell...
         cell.il.text = imageTitle
         let t = URLSession.shared.dataTask(with: imageURL!){ (data,request,error) in
+            imageCounter += 1
             let img = UIImage(data: data!)
             DispatchQueue.main.async {
                 cell.iv.image = img!
+                
+                imageCounter -= 1
+                if(imageCounter == 0) {
+                    PKHUD.sharedHUD.hide()
+                }
+                
+                
             }
+            
+            print("beta")
+            
         }
         
         t.resume()

@@ -15,30 +15,21 @@
 		72257E7D1DEEE5C10083D3DE /* FlickrSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E7C1DEEE5C10083D3DE /* FlickrSDK.swift */; };
 		72257E7F1DEEF1C80083D3DE /* PublicImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */; };
 		72257E811DEEFCB50083D3DE /* PublicImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */; };
-		72257E8B1DEF16410083D3DE /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72257E8A1DEF16080083D3DE /* PKHUD.framework */; };
-		72257E8C1DEF16410083D3DE /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72257E8A1DEF16080083D3DE /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		72257E871DEF16080083D3DE /* PBXContainerItemProxy */ = {
+		727C21E91DF08B2900311FFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+			containerPortal = 727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F99631FC19514FAC001F73CA;
 			remoteInfo = "PKHUD Demo";
 		};
-		72257E891DEF16080083D3DE /* PBXContainerItemProxy */ = {
+		727C21EB1DF08B2900311FFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+			containerPortal = 727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F996321E19514FD8001F73CA;
-			remoteInfo = PKHUD;
-		};
-		72257E8D1DEF16410083D3DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F996321D19514FD8001F73CA;
 			remoteInfo = PKHUD;
 		};
 /* End PBXContainerItemProxy section */
@@ -50,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				72257E8C1DEF16410083D3DE /* PKHUD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +58,7 @@
 		72257E7C1DEEE5C10083D3DE /* FlickrSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSDK.swift; sourceTree = "<group>"; };
 		72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewController.swift; sourceTree = "<group>"; };
 		72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewCell.swift; sourceTree = "<group>"; };
-		72257E821DEF16080083D3DE /* PKHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKHUD.xcodeproj; path = "../../../Desktop/PKHUD-master/PKHUD.xcodeproj"; sourceTree = "<group>"; };
+		727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKHUD.xcodeproj; path = "../../../Desktop/PKHUD-master/PKHUD.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72257E8B1DEF16410083D3DE /* PKHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +75,7 @@
 		72257E5C1DEEE0EE0083D3DE = {
 			isa = PBXGroup;
 			children = (
-				72257E821DEF16080083D3DE /* PKHUD.xcodeproj */,
+				727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */,
 				72257E671DEEE0EE0083D3DE /* FlickrApp */,
 				72257E661DEEE0EE0083D3DE /* Products */,
 			);
@@ -116,11 +105,11 @@
 			path = FlickrApp;
 			sourceTree = "<group>";
 		};
-		72257E831DEF16080083D3DE /* Products */ = {
+		727C21E41DF08B2900311FFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72257E881DEF16080083D3DE /* PKHUD Demo.app */,
-				72257E8A1DEF16080083D3DE /* PKHUD.framework */,
+				727C21EA1DF08B2900311FFE /* PKHUD Demo.app */,
+				727C21EC1DF08B2900311FFE /* PKHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +129,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				72257E8E1DEF16410083D3DE /* PBXTargetDependency */,
 			);
 			name = FlickrApp;
 			productName = FlickrApp;
@@ -176,8 +164,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 72257E831DEF16080083D3DE /* Products */;
-					ProjectRef = 72257E821DEF16080083D3DE /* PKHUD.xcodeproj */;
+					ProductGroup = 727C21E41DF08B2900311FFE /* Products */;
+					ProjectRef = 727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -188,18 +176,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		72257E881DEF16080083D3DE /* PKHUD Demo.app */ = {
+		727C21EA1DF08B2900311FFE /* PKHUD Demo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "PKHUD Demo.app";
-			remoteRef = 72257E871DEF16080083D3DE /* PBXContainerItemProxy */;
+			remoteRef = 727C21E91DF08B2900311FFE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		72257E8A1DEF16080083D3DE /* PKHUD.framework */ = {
+		727C21EC1DF08B2900311FFE /* PKHUD.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PKHUD.framework;
-			remoteRef = 72257E891DEF16080083D3DE /* PBXContainerItemProxy */;
+			remoteRef = 727C21EB1DF08B2900311FFE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -231,14 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		72257E8E1DEF16410083D3DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PKHUD;
-			targetProxy = 72257E8D1DEF16410083D3DE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		72257E6C1DEEE0EE0083D3DE /* Main.storyboard */ = {
@@ -396,6 +376,7 @@
 				72257E791DEEE0EE0083D3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
