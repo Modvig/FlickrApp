@@ -32,6 +32,20 @@
 			remoteGlobalIDString = F996321E19514FD8001F73CA;
 			remoteInfo = PKHUD;
 		};
+		727C21F21DF0ABAA00311FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727C21ED1DF0ABAA00311FFE /* SLImageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 374DDABD1CBEB0AD004EA4A0;
+			remoteInfo = SLImageView;
+		};
+		727C21F41DF0ABAA00311FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727C21ED1DF0ABAA00311FFE /* SLImageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 374DDAC71CBEB0AD004EA4A0;
+			remoteInfo = SLImageViewTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +73,7 @@
 		72257E7E1DEEF1C80083D3DE /* PublicImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewController.swift; sourceTree = "<group>"; };
 		72257E801DEEFCB50083D3DE /* PublicImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicImageTableViewCell.swift; sourceTree = "<group>"; };
 		727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKHUD.xcodeproj; path = "../../../Desktop/PKHUD-master/PKHUD.xcodeproj"; sourceTree = "<group>"; };
+		727C21ED1DF0ABAA00311FFE /* SLImageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SLImageView.xcodeproj; path = "../../../Desktop/SLImageView-master/SLImageView.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,7 @@
 		72257E5C1DEEE0EE0083D3DE = {
 			isa = PBXGroup;
 			children = (
+				727C21ED1DF0ABAA00311FFE /* SLImageView.xcodeproj */,
 				727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */,
 				72257E671DEEE0EE0083D3DE /* FlickrApp */,
 				72257E661DEEE0EE0083D3DE /* Products */,
@@ -110,6 +126,15 @@
 			children = (
 				727C21EA1DF08B2900311FFE /* PKHUD Demo.app */,
 				727C21EC1DF08B2900311FFE /* PKHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727C21EE1DF0ABAA00311FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727C21F31DF0ABAA00311FFE /* SLImageView.framework */,
+				727C21F51DF0ABAA00311FFE /* SLImageViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +192,10 @@
 					ProductGroup = 727C21E41DF08B2900311FFE /* Products */;
 					ProjectRef = 727C21E31DF08B2900311FFE /* PKHUD.xcodeproj */;
 				},
+				{
+					ProductGroup = 727C21EE1DF0ABAA00311FFE /* Products */;
+					ProjectRef = 727C21ED1DF0ABAA00311FFE /* SLImageView.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -188,6 +217,20 @@
 			fileType = wrapper.framework;
 			path = PKHUD.framework;
 			remoteRef = 727C21EB1DF08B2900311FFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		727C21F31DF0ABAA00311FFE /* SLImageView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SLImageView.framework;
+			remoteRef = 727C21F21DF0ABAA00311FFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		727C21F51DF0ABAA00311FFE /* SLImageViewTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SLImageViewTests.xctest;
+			remoteRef = 727C21F41DF0ABAA00311FFE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

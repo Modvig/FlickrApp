@@ -17,9 +17,6 @@ class PublicImageTableViewCell: UITableViewCell {
         DispatchQueue.global(qos: .userInitiated).async {
             
         }
-        
-        
-        
     }
     
     override func awakeFromNib() {
